@@ -1,0 +1,19 @@
+title:             Roboyantriki
+email:             robo.yantriki@snu.edu.in
+description:       The Tech-Heart of SNU
+author:            Roboyantriki
+baseurl:           "/"
+url:               "https://roboyantriki.github.io"
+
+# Social Profiles
+#twitter_username:  SBootstrap
+github_username:   Roboyantriki-SNU
+#facebook_username: 
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
