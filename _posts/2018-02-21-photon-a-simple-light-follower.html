@@ -1,0 +1,55 @@
+---
+layout: page
+title: "Photon: A simple light follower"
+subtitle: "A beginners guide to build a light follower."
+date: 2018-03-21
+background: "/img/Photon/photon.jpg"
+categories: robots
+---
+<blockquote class="blockquote"><p>This article was contibuted by C.V.Hariharan</p></blockquote>
+<p>Photon is a simple creature. It follows light, imitating insects. Photon is based on a 555 timer chip circuit for a light activated switch, that was later modified. This is mostly a visual guide to build Photon that anyone can follow, even if they have never built a circuit before. Let's get started!</p>
+
+<img class="img-fluid" src="/img/Photon/photon1.jpg"/>
+
+<p><h2>Materials</h2></p>
+<img class="img-fluid" src="/img/Photon/materials.jpg"/>
+<p>The materials required to build Photon are easily available.</p>
+<ul>
+  <li>2 x 555 timer chips</li>
+  <li>2 x motors and wheels</li>
+  <li>4 x 10K ohms resistors</li>
+  <li>2 X LDRs</li>
+  <li>2 x 0.01uF capacitors</li>
+  <li>9v battery and a battery connector</li>
+  <li>A breadboard (optional)</li>
+</ul>
+
+<p><h2>Circuit</h2></p>
+<img class="img-fluid" src="/img/Photon/schematic.jpg"/>
+
+<p><h2>Step 1</h2></p>
+<img class="img-fluid" src="/img/Photon/step1.jpg"/>
+<p>Insert the chips as shown in the figure. There will be a small notch on the IC. Make sure the the notches face forward if you are going to use the layout specified in the images. Connect pins 8 and 4 on both the chips. Connect 6 and 2 together on both the chips.</p>
+
+<p><h2>Step 2</h2></p>
+<img class="img-fluid" src="/img/Photon/step2.jpg"/>
+<p>Connect pin 1 to the negative rail on the breadboard. Connect pin 8 to the positive rail on the breadboard. Do the same with the second chip.</p>
+
+<p><h2>Step 3</h2></p>
+<img class="img-fluid" src="/img/Photon/step3.jpg"/>
+<p>Now comes the tricky part. Connect a 10k (brown, black and orange) resistor between the pins 8 and 6. Connect another 10k resistor between the pins 7 and 6. Do the same with the next chip.</p>
+
+<p><h2>Step 4</h2></p>
+<img class="img-fluid" src="/img/Photon/step4.jpg"/>
+<p>Now connect 0.01uf capacitors between pins 1 and 5 on both the chips.</p>
+
+<p><h2>Step 5</h2></p>
+<img class="img-fluid" src="/img/Photon/step4.jpg"/>
+<p>Our bot uses LDRs to detect light. These are light dependent resistors, their resistance changes according the intensity of light incident on them. Connect the LDRs between pins 1 and 2 on both the chips. LDRs do not have polarity.</p>
+
+<p><h2>Step 6</h2></p>
+<img class="img-fluid" src="/img/Photon/step6.jpg"/>
+<p>Connect the motors between pin 3 and the negative rail on the breadboard. Do the same with the second chip and VOILA! You have made your very first light follower! Check the direction of rotation of the motors and change the motor connections if neccesary to achieve a "towards light" motion. Assemble the bot such that the LDR and the motor it is connected to are diagonal. Connect the power supply, in this case a 9v battery, to the positive and negative rails of the breadboard. Connect the black wire (negative terminal) to the negative rail and the red wire (positive terminal) to the positive rail on the breadboard.</p>
+<img class="img-fluid" src="/img/Photon/photon.jpg"/>
+
+<p>Originally posted on <a href="http://instructables.com/id/555-timer-based-light-seeking-robot/">Instructables</a> by C.V.Hariharan</p>
