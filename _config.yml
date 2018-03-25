@@ -4,7 +4,7 @@ description:       The Tech-Heart of SNU
 author:            Roboyantriki
 baseurl:           "/"
 url:               "https://roboyantriki.github.io"
-
+google_analytics:  "UA-116210687-1"
 # Social Profiles
 #twitter_username:  SBootstrap
 github_username:   Roboyantriki-SNU
